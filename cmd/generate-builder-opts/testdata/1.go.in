@@ -1,0 +1,9 @@
+package genbuildertest
+
+type A struct {
+	B string
+	C int
+	D bool
+	e, g float32
+	F interface{}
+}

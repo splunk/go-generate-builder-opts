@@ -1,0 +1,7 @@
+package genbuildertest
+
+import "strings"
+
+type A struct {
+	strings.Stringer
+}

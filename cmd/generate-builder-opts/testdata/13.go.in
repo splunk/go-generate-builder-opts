@@ -1,0 +1,7 @@
+package genbuildertest
+
+type A struct {
+	B int
+	C string
+	D bool
+}

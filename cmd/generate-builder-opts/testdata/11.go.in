@@ -1,0 +1,11 @@
+package genbuildertest
+
+import "strings"
+
+type B struct {}
+
+type A struct {
+	B
+	C strings.Stringer
+	D int
+}

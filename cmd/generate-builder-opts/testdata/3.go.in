@@ -1,0 +1,5 @@
+package genbuildertest
+
+type A struct {
+	B string
+	C int

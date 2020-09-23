@@ -1,0 +1,24 @@
+package genbuildertest
+
+type AFieldSetter func(*A)
+
+func SetB(bGen string) AFieldSetter {
+	return func(aGen *A) {
+		aGen.B = bGen
+	}
+}
+func SetC(cGen int) AFieldSetter {
+	return func(aGen *A) {
+		aGen.C = cGen
+	}
+}
+func SetD(dGen bool) AFieldSetter {
+	return func(aGen *A) {
+		aGen.D = dGen
+	}
+}
+func SetF(fGen interface{}) AFieldSetter {
+	return func(aGen *A) {
+		aGen.F = fGen
+	}
+}

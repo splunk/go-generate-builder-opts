@@ -1,0 +1,13 @@
+package genbuildertest
+
+type A struct {
+	b interface {
+		String() string
+	}
+	c struct {
+		d int
+		e *struct{
+			f []byte
+		}
+	}
+}
